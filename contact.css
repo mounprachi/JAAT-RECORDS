@@ -1,0 +1,139 @@
+.logo{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+width:50%;
+display: flex;
+background-color: black;
+align-items: center;
+}
+.nav-list li{
+list-style: none;
+padding: 26px 30px;
+}
+.nav-list li a{
+text-decoration: none;
+color: rgb(252, 245, 245);
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: rgb(249, 244, 244);
+    }
+.rightnav{
+width:50%;
+text-align: right;
+padding: 0 23px;
+}
+#search{padding: 5px;
+    font-size: 17px;
+    border: 2px solid rgb(4, 0, 0);
+    border-radius: 9px;}
+    .background{
+        background: rgba(0,0,0,0.7) url(b.png);
+        background-size: cover;
+    }
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url("bggg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fi;
+}
+.box{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+span{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.input-feild{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 45px;
+    background: rgba(255,255,255,0.1);
+}
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #fff;
+
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(255,255,255,0.1);
+    cursor: pointer;
+    transition: .3s;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0,0,0,0.2);
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+}
+.left{
+    display: flex;
+}
+label a{
+    color: #fff;
+    text-decoration: none;
+}
